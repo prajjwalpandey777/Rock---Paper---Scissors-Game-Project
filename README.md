@@ -17,4 +17,12 @@ Features:-
 
    5.Display of the winner for each round.
 
- 
+Technologies used are 
+     1.Python
+
+Steps to play the game:-
+ 1.Enter the python programming code in the suitable platforms like vs code,google colab or jupyter notebook.
+ 2.Run the code and enter your choices from the given choices.
+ 3.Then the computer chooses a random choice against you .
+ 4.Then the result will be displayed based on your and computer selected choice.
+
