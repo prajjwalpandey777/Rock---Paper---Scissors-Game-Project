@@ -3,9 +3,7 @@
 
 
 import random
-
 options = ["rock", "paper", "scissors"]
-
 while True:
     user_choice = input("Choose rock, paper, or scissors? (or 'quit'): ").lower()
     if user_choice == "quit":
@@ -14,10 +12,8 @@ while True:
     if user_choice not in options:
         print(" Invalid input ")
         continue
-
     computer_choice = random.choice(options)
     print(f"Computer chose: {computer_choice}")
-
     if user_choice == computer_choice:
         print("Tie!")
     elif (user_choice == "rock" and computer_choice == "scissors") or \
